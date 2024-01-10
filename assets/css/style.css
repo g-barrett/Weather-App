@@ -1,11 +1,15 @@
+:root {
+    background-color: rgb(240, 228, 161);
+}
+
 .header {
     background-color: rgb(1, 66, 20);
-    background-image: linear-gradient(to right, #02cf57, #02852d, #00470c);
+    background-image: linear-gradient(to left, rgb(0, 197, 49), #018a2f, rgb(5, 65, 0));
     height: 50px;
 }
 
 .header-text {
-    color: rgb(240, 228, 161);
+    color: rgb(250, 243, 202);
     text-align: center;
     padding-top: 10px;
 }
@@ -23,8 +27,8 @@
 .btn {
     width: 233px;
     height: 25px;
-    color: rgb(240, 228, 161);
-    background-color: #007e1b;
+    color: rgb(250, 243, 202);
+    background-color: #018a2f;
     border: none;
     border-radius: 4px;
 }
@@ -51,7 +55,8 @@ h3 {
 }
 
 .card {
-    background-color: lightgray;
+    background-color: rgb(0, 197, 49);
+    color: #3d3d3d;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
@@ -59,9 +64,17 @@ h3 {
 }
 
 #past-search {
-    background-color: lightgray;
-    border-radius: 5px;
+    color: rgb(250, 243, 202);
     margin-top: 20px;
+    margin-right: 80%;
+}
+
+p {
+    background-color: rgb(5, 65, 0);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(250, 243, 202);
 }
 
 #card-container {
